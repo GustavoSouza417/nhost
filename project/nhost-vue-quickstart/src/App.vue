@@ -29,7 +29,6 @@
     <table>
       <tbody>
         <tr v-for="movie in movies" :key="movie.id">
-          <td>sssssssssssss</td>
           <td>{{ movie.title }}</td>
           <td>{{ movie.genre }}</td>
           <td>{{ movie.rating }}</td>
